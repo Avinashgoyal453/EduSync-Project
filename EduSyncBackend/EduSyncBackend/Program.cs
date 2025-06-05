@@ -54,7 +54,7 @@ builder.Services.AddCors(options =>
               .AllowAnyHeader();
         policy.WithOrigins(
             "http://localhost:3000",
-            "https://red-meadow-0ab5a720f.6.azurestaticapps.net"
+            "https://wonderful-tree-05726f30f.6.azurestaticapps.net"
         )
         .AllowAnyHeader()
         .AllowAnyMethod();
