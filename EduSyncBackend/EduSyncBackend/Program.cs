@@ -42,7 +42,7 @@ builder.Services.AddCors(options =>
 {
     options.AddPolicy("AllowFrontend", policy =>
     {
-        policy.WithOrigins("https://edusync-frontend-brijesh-f7byhagudcgpdfh6.eastus2-01.azurewebsites.net/")
+        policy.WithOrigins("https://wonderful-tree-05726f30f.6.azurestaticapps.net")
               .AllowAnyHeader()
               .AllowAnyMethod();
     });
