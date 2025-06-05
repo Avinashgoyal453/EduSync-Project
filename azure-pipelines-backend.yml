@@ -70,6 +70,6 @@ steps:
 
     appType: 'webApp'
 
-    appName: 'edusync-backend-brijesh'
+    appName: 'EduSyncBackend'
 
     package: '$(Build.ArtifactStagingDirectory)//*.zip'
